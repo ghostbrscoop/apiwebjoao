@@ -14,10 +14,10 @@ const db = mysql.createConnection({
     database: 'programadorweb-10-03-2023'
   });
 
-  // Cria o servidor Express
+
 const app = express();
 
-// Adiciona o middleware Cors para permitir o acesso externo à API
+
 app.use(cors());
 
 // Configura o servidor para usar requisições no formato JSON
